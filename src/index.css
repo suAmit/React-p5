@@ -9,21 +9,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --text-color: #333333;
-  --text-secondary-color: #757575;
-  --background-color: #ffffff;
-  --border-color: #e0e0e0;
-  --background-secondary-color: #f9f9f9;
-  --accent-color: #61dafb;
-}
-
-[data-theme="dark"] {
+  /*Dark mode color*/
   --text-color: #e0e0e0;
-  --text-secondary-color: #a0a0a0;
+  --text-secondary-color: #c9c9c9;
   --background-color: #121212;
   --border-color: #333333;
   --background-secondary-color: #1e1e1e;
   --accent-color: #ed225d;
+}
+
+[data-theme="light"] {
+  --text-color: #333333;
+  --text-secondary-color: #737373;
+  --background-color: #ffffff;
+  --border-color: #e0e0e0;
+  --background-secondary-color: #f9f9f9;
+  --accent-color: #61dafb;
 }
 
 body {
